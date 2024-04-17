@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fjalla+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color:#06113C;
+}
+.titulo{
+    font-family: "DM Sans", sans-serif;
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 80px;
+    margin: 2.5%;
+    font-weight: bold;
+}
+
+.caixaclass{
+    text-align:center;
+    width: 350px;
+    height: 350px;
+    background-color:#e96500;
+    margin:auto;
+    border-radius: 10%;
+    align-items: center;
+  
+}
+
+button:hover{
+    background-color: #06113C;
+}
+
+.botaoclass{
+    font-size: 18px;
+    width:100px;
+    border-radius: 8px;
+    margin:10% 20%;
+    background-color: #070a09;
+    color: #f8f8f8;
+    border-color: #f5c000;
+    font-family: "DM Sans", sans-serif;
+}
+
+.numero{
+    font-size:100px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    margin: 2.5%;
+    color: #EEEEEE;
+}
+
+.limpar{
+    font-size: 18px;
+    width:100px;
+    border-radius: 8px;
+    margin:0% 20%;
+    background-color: #070a09;
+    color: #EEEEEE;
+    border-color: #f5c000;
+    font-family: "DM Sans", sans-serif;
+}
+
+.strong{
+    color: #f5c000;
+}
+
+@media (max-width: 771px) {
+    .titulo{
+        width: auto;
+    }
+    
+}
+   
